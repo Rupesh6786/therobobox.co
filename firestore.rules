@@ -1,0 +1,47 @@
+
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /enquiries/{enquiryId} {
+      function isSignedIn() { return request.auth != null; }
+      function isOwner(userId) { return isSignedIn() && request.auth.uid == userId; }
+      function isExistingOwner(userId) { return isOwner(userId) && resource != null; }
+
+      allow get: if isOwner(resource.data.userId); // Only owner can get
+      allow list: if isOwner(request.auth.uid); // Only owner can list
+
+      allow create: if isOwner(request.resource.data.userId); // Only owner can create
+      allow update: if isExistingOwner(resource.data.userId); // Only owner can update
+      allow delete: if isExistingOwner(resource.data.userId); // Only owner can delete
+    }
+
+    match /workshops/{workshopId} {
+      allow get: if true; // Anyone can get
+      allow list: if true; // Anyone can list
+
+      allow create: if false; // No one can create
+      allow update: if false; // No one can update
+      allow delete: if false; // No one can delete
+    }
+
+    match /workshops/{workshopId}/registrations/{registrationId} {
+      allow get: if true; // Anyone can get
+      allow list: if true; // Anyone can list
+
+      allow create: if false; // No one can create
+      allow update: if false; // No one can update
+      allow delete: if false; // No one can delete
+    }
+
+    match /products/{productId} {
+      allow get: if true; // Anyone can get
+      allow list: if true; // Anyone can list
+
+      allow create: if false; // No one can create
+      allow update: if false; // No one can update
+      allow delete: if false; // No one can delete
+    }
+  }
+}

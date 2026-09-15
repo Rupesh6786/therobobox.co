@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A robot arm assembling a complex structure.",
+      "imageUrl": "https://images.unsplash.com/photo-1535378273068-9bb67d5beacd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9ib3QlMjBhcm18ZW58MHx8fHwxNzU5MjU2MDg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot arm"
+    },
+    {
+      "id": "hero-2",
+      "description": "Students collaborating on a robotics project in a classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1654366698665-e6d611a9aaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkZW50cyUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3NTkyMTM1Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students classroom"
+    },
+    {
+      "id": "hero-3",
+      "description": "A close-up of a robot's glowing blue eye.",
+      "imageUrl": "https://images.unsplash.com/photo-1662558274454-4b1fc87719d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyb2JvdCUyMGV5ZXxlbnwwfHx8fDE3NTkyOTk4Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot eye"
+    },
+    {
+      "id": "product-1",
+      "description": "A starter kit for building a small robot.",
+      "imageUrl": "https://images.unsplash.com/photo-1708728428891-ce375314e569?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb2JvdGljcyUyMGtpdHxlbnwwfHx8fDE3NTkzMDQxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robotics kit"
+    },
+    {
+      "id": "product-2",
+      "description": "A collection of different electronic sensors.",
+      "imageUrl": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlbGVjdHJvbmljJTIwc2Vuc29yc3xlbnwwfHx8fDE3NTkzMDQxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electronic sensors"
+    },
+    {
+      "id": "product-3",
+      "description": "A camera module for a robot's vision.",
+      "imageUrl": "https://images.unsplash.com/photo-1752580810720-d71efad5d3ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYW1lcmElMjBtb2R1bGV8ZW58MHx8fHwxNzU5MzA0MTAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "camera module"
+    },
+    {
+      "id": "info-1",
+      "description": "A team of diverse engineers working together in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NTkyNTE3MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team working"
+    },
+    {
+      "id": "info-2",
+      "description": "A teacher guiding a student with a robotics kit in a library.",
+      "imageUrl": "https://images.unsplash.com/photo-1739223404257-a52bc21529c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwc3R1ZGVudHxlbnwwfHx8fDE3NTkzMDQxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher student"
+    }
+  ]
+}

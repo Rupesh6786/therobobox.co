@@ -1,0 +1,55 @@
+
+{
+  "products": [
+    {
+      "id": "robobox",
+      "imageId": "product-1",
+      "title": "Starter Bot Kit",
+      "description": "The perfect introduction to robotics. Build your first autonomous robot with our easy-to-follow guide.",
+      "price": "7999",
+      "discountPercentage": 0,
+      "imageUrls": [],
+      "features": ["Arduino-based controller", "Ultrasonic sensor for navigation", "All tools and parts included", "Online step-by-step tutorials"]
+    },
+    {
+      "id": "mechatronics",
+      "imageId": "product-2",
+      "title": "Advanced Sensor Pack",
+      "description": "Expand your robot's capabilities with a range of advanced sensors for navigation and interaction.",
+      "price": "3999",
+      "discountPercentage": 10,
+      "imageUrls": [],
+      "features": ["Infrared line followers", "Gyroscope and accelerometer", "Sound and light sensors", "Plug-and-play with Starter Bot"]
+    },
+    {
+      "id": "blix",
+      "imageId": "product-3",
+      "title": "AI Vision Module",
+      "description": "Give your creation the power of sight. Integrates seamlessly with our core platform for object recognition.",
+      "price": "6499",
+      "discountPercentage": 0,
+      "imageUrls": [],
+      "features": ["Onboard camera", "Pre-trained models for object detection", "Python API for custom projects", "Integrates with Raspberry Pi"]
+    },
+    {
+      "id": "drone",
+      "imageId": "hero-1",
+      "title": "DIY Drone Kit",
+      "description": "Build and fly your own drone with this comprehensive kit, including a high-res camera.",
+      "price": "10999",
+      "discountPercentage": 15,
+      "imageUrls": [],
+      "features": ["4K camera module", "GPS for stable flight", "Carbon fiber frame", "30-minute flight time"]
+    },
+    {
+      "id": "micro-drone",
+      "imageId": "hero-1",
+      "title": "Micro Drone Kit",
+      "description": "A compact and agile drone, perfect for indoor flight and learning the basics of aerial robotics.",
+      "price": "4999",
+      "discountPercentage": 0,
+      "imageUrls": [],
+      "features": ["Palm-sized drone", "Protective propeller guards", "360-degree flips", "Easy-to-use controller"]
+    }
+  ]
+}
